@@ -17,7 +17,7 @@
     randomButtonContainer.className = 'mr-2';
     randomButtonContainer.innerHTML = `
     <a href="javascript:void(0)">
-      <button type="button" class="btn btn-primary random-btn" style="display: inline-block !important; visibility: visible !important;">Zufällig</button>
+      <button type="button" class="btn btn-primary random-btn" style="display: inline-block !important; visibility: visible !important;">Random</button>
     </a>
   `;
     randomButtonContainer.querySelector('button').addEventListener('click', loadRandomContent);
